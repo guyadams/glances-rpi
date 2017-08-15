@@ -2759,11 +2759,11 @@
         "hide": 0,
         "includeAll": false,
         "label": null,
-        "multi": true,
+        "multi": false,
         "name": "Server",
         "options": [],
         "query": " SHOW TAG VALUES FROM \"cpu\" WITH KEY = \"server\"",
-        "refresh": 1,
+        "refresh": 2,
         "regex": "",
         "sort": 0,
         "tagValuesQuery": "",
@@ -2775,7 +2775,7 @@
     ]
   },
   "time": {
-    "from": "now-3h",
+    "from": "now-1h",
     "to": "now"
   },
   "timepicker": {
@@ -2810,6 +2810,6 @@
     "type": "timepicker"
   },
   "timezone": "browser",
-  "title": "2",
-  "version": 3
+  "title": "RPI Glances",
+  "version": 2
 }
